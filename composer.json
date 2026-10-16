@@ -1,0 +1,15 @@
+{
+    "name": "kangguru/roundcube-datev-securemail",
+    "type": "roundcube-plugin",
+    "description": "Open DATEV/SEPPmail secure-email.html attachments directly in the decryption portal",
+    "homepage": "https://github.com/kangguru/roundcube-datev-securemail",
+    "license": "MIT",
+    "require": {
+        "roundcube/plugin-installer": ">=0.1.3"
+    },
+    "extra": {
+        "roundcube": {
+            "min-version": "1.5.0"
+        }
+    }
+}

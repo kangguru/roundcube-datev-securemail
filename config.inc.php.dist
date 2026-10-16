@@ -1,0 +1,8 @@
+<?php
+
+// Hosts the secure mail form may be posted to (https only).
+// Entries starting with a dot match any subdomain.
+$config['datev_securemail_hosts'] = ['.datevnet.de'];
+
+// Attachment filename pattern identifying a secure mail
+$config['datev_securemail_filename'] = '/^secure-email\.html?$/i';
